@@ -1,0 +1,8 @@
+// :local：会被模块化，隐式使用，所以不用显示使用
+// :local(.containerStyle2)与.containerStyle2效果一致
+// :global：不会被模块化
+:local(.containerStyle2){
+    :global(.content){
+        color: red
+    }
+}
