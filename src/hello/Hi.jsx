@@ -20,7 +20,7 @@ export default class Hi extends React.Component{
     }
 
     handleClink() {
-        console.log(this)
+        // console.log(this)
         this.setState({
             seg: this.state.seg + 1,
             name: this.state.name.substring(0, 3) + this.state.seg
